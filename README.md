@@ -1,5 +1,7 @@
 # DeepASL
 
+https://user-images.githubusercontent.com/89669770/160533563-7f97bd48-56de-41fe-b7ad-370723fca3d0.mp4
+
 DeepASL is pretty straightforward, it uses a live webcam feed to interpret American Sign Language hand gestures in real time.
 
 **Installation:**
