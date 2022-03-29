@@ -9,7 +9,7 @@ DeepASL is pretty straightforward, it uses a live webcam feed to interpret Ameri
 
 **Usage:**
 
-After running, two windows will appear, the Analytics window displays extracted data points used in triggering the interpretation snapshot, and depth perception. Hand Segmentation shows what the CNN "sees"!
+After running, two windows will appear, the Analytics window displays the raw video and extracted data points used in triggering the interpretation snapshot/depth perception. Hand Segmentation shows what the CNN "sees"!
 
 **Credits:**
 
