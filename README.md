@@ -2,7 +2,7 @@
 
 ![deep_asl_ex_vid_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/89669770/160533990-ae71afe4-67f4-4d21-93b4-8bf65fba739f.gif)
 
-DeepASL is pretty straightforward, it uses a live webcam feed to interpret American Sign Language hand gestures in real time.
+DeepASL is pretty straightforward, it uses a live webcam feed to interpret American Sign Language hand gestures in real time. My goal with this project was to learn the very basics of [Convolutional Neural Networks](https://cs231n.github.io/convolutional-networks/) in tandem with Computer Vision. 
 
 **Installation:**
 
