@@ -19,3 +19,7 @@ After running, two windows will appear, the Analytics window displays the raw vi
 
 2. Streamlit-WebRTC(https://github.com/whitphx/streamlit-webrtc) - Used to connect Python ML backend to Streamlit web hosting. At first I wanted to host this project with just Flask, but task proved to be rather difficult when trying to send webcam frames to Python backend. Streamlit-WebRTC solved this!
 
+**Streamlit**
+
+Anyone can run this project over the cloud using Streamlit without download.
+DeepASL on Streamlit(https://share.streamlit.io/cesarealmendarez/deep_asl_streamlit/app.py)
