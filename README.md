@@ -22,4 +22,5 @@ After running, two windows will appear, the Analytics window displays the raw vi
 **Streamlit**
 
 Anyone can run this project over the cloud using Streamlit without download.
+
 DeepASL on Streamlit(https://share.streamlit.io/cesarealmendarez/deep_asl_streamlit/app.py)
