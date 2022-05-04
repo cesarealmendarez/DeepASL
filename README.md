@@ -2,7 +2,7 @@
 
 ![deep_asl_ex_vid_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/89669770/160533990-ae71afe4-67f4-4d21-93b4-8bf65fba739f.gif)
 
-DeepASL is pretty straightforward, it uses a live webcam feed to interpret American Sign Language hand gestures in real time. My goal with this project was to learn the very basics of [Convolutional Neural Networks](https://cs231n.github.io/convolutional-networks/) in tandem with Computer Vision. 
+DeepASL is pretty straightforward, it uses a live webcam feed to interpret American Sign Language hand gestures in real time. My goal with this project was to learn the very basics of [Convolutional Neural Networks](https://cs231n.github.io/convolutional-networks/) in tandem with [Computer Vision](http://vision.stanford.edu/teaching/cs131_fall2122/index.html). 
 
 **Installation:**
 
@@ -23,4 +23,4 @@ After running, two windows will appear, the Analytics window displays the raw vi
 
 Anyone can run this project over the cloud using Streamlit without download.
 
-DeepASL on Streamlit(https://share.streamlit.io/cesarealmendarez/deep_asl_streamlit/app.py)
+[DeepASL on Streamlit](https://share.streamlit.io/cesarealmendarez/deep_asl_streamlit/app.py)
