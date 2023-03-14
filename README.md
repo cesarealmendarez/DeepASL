@@ -2,25 +2,24 @@
 
 ![deep_asl_ex_vid_AdobeCreativeCloudExpress](https://user-images.githubusercontent.com/89669770/160533990-ae71afe4-67f4-4d21-93b4-8bf65fba739f.gif)
 
-DeepASL is pretty straightforward, it uses a live webcam feed to interpret American Sign Language hand gestures in real time. My goal with this project was to learn the very basics of [Convolutional Neural Networks](https://cs231n.github.io/convolutional-networks/) in tandem with [Computer Vision](http://vision.stanford.edu/teaching/cs131_fall2122/index.html). 
+**Overview**
 
-**Installation:**
+DeepASL utilizes webcam video feed and some Python code to interpret American Sign Language hand gestures in real time! My goal with this project was to learn the very basics of what makes up [Convolutional Neural Networks](https://cs231n.github.io/convolutional-networks/) and how [Computer Vision](http://vision.stanford.edu/teaching/cs131_fall2122/index.html) can make them interactively useful in the real world.
 
-1. pip install -> opencv-python, mediapipe, numpy
-2. run app.py
+**Installation and Usage**
 
-**Usage:**
+1. Clone this repo: ```git clone https://github.com/cesarealmendarez/DeepASL.git```
+2. Navigate to project: ```cd DeepASL```
+3. Install required packages: ```pip3 install opencv-python mediapipe numpy```
+4. Run DeepASL: ```python3 app.py```
 
-After running, two windows will appear, the Analytics window displays the raw video and extracted data points used in triggering the interpretation snapshot/depth perception. Hand Segmentation shows what the CNN "sees"!
+**What's on my Screen?**
 
-**Credits:**
+Once you run DeepASL, two windows will appear, the Analytics window displays the raw video along with the extracted data points used in interpreting hand landmarks/steadiness, depth perception, output confidence, and finally triggering the snapshot. The Hand Segmentation window shows what the network will break down into a pattern of 1's and 0's prompting it's best attempt to guess what ASL letter you're showing!
 
-1. [MediaPipe](https://github.com/google/mediapipe) - Used to percieve shape and motion of hand, create skeleton-like outline of hands to segment useful classification features
+**Resources Used**
 
-2. [Streamlit-WebRTC](https://github.com/whitphx/streamlit-webrtc) - Used to connect Python ML backend to Streamlit web hosting. At first I wanted to host this project with just Flask, but task proved to be rather difficult when trying to send webcam frames to Python backend. Streamlit-WebRTC solved this!
-
-**Streamlit**
-
-Anyone can run this project over the cloud using Streamlit without download.
-
-[DeepASL on Streamlit](https://share.streamlit.io/cesarealmendarez/deep_asl_streamlit/app.py)
+1. [MediaPipe](https://github.com/google/mediapipe): Used to perceive the shape of the hand and create a skeleton-like outline, enabling segmentation of useful classification features.
+2. [MNIST Handwritten Digits Classification using a Convolutional Neural Network (CNN)](https://towardsdatascience.com/mnist-handwritten-digits-classification-using-a-convolutional-neural-network-cnn-af5fafbc35e9) 
+3. [A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53) 
+4. [Simple Introduction to Convolutional Neural Networks](https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac)
