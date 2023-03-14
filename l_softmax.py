@@ -5,6 +5,7 @@ class Softmax:
         if isinstance(nominal_weights, str) == True:
             self.weights = np.random.randn(input_length, nodes) / input_length
             self.biases = np.zeros(nodes)
+
         else:
             self.weights = nominal_weights
             self.biases = nominal_biases

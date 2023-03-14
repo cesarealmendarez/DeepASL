@@ -9,12 +9,14 @@ nominal_biases_file_dir = "NominalBiases.txt"
 
 nominal_filters_test = []
 nominal_biases_test = []
-nominal_weights_test = []
+nominal_weights_test = [] 
 
 with open(nominal_filter_file_dir, 'rb') as f:
     nominal_filters_test = pickle.load(f)
+    
 with open(nominal_weights_file_dir, 'rb') as d:
     nominal_weights_test = pickle.load(d)
+    
 with open(nominal_biases_file_dir, 'rb') as e:
     nominal_biases_test = pickle.load(e) 
 
